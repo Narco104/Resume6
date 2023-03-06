@@ -1,0 +1,181 @@
+.menu{
+    background-color: rgb(0, 0, 0); 
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: serif;
+    font-size: medium;
+    text-decoration: dot;
+    color: aliceblue;
+    
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.border {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(9, 99, 202 ) ;
+    border-radius: 25px;
+    border: 5px solid rgb(9, 99, 202 );
+    
+  }
+
+  .container{
+    display: flex;
+}
+
+  #box1 {
+
+    background-color:rgb(9, 99, 202);
+    padding: 30px;
+    padding-top: 300px;
+    margin-right: -50px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    flex-direction: column;
+    height: 490px;
+    margin-top: 5px;
+    margin-right: -43px;
+    margin-left: 2px;
+
+
+  }
+
+  #box2 {
+
+    width: 308px;
+    height: 560px;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 830px;
+    margin-left: -285px;
+    padding-top: 290px;
+    padding-right: 20px;
+  }
+
+  #box3 {
+
+    background-color: aqua;
+    flex-direction: left;
+    padding: 30px;
+    margin-top: -13px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    width: 530px;
+}
+
+#box4 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 270px;
+    margin-left: 335px;
+    text-align: center;
+    padding-right: 170px;
+    padding-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 110px;
+  }
+
+.menuh1 {
+    font-family: serif;
+    font-size: xx-large;
+}
+
+
+.header{
+    background-color:rgb(9, 99, 202);
+    padding: 30px;
+    margin: -5px;
+    text-align: center;
+    border-radius: 25px 25px 25px 0px;
+}
+
+
+.Intro {
+    font-family: serif;
+    font-size:large ;
+    color: aliceblue;
+}
+
+
+a {
+     color: rgb(39, 202, 39);
+     font-family: serif;
+     font-size: 25px;
+}
+
+
+
+ul li{
+    list-style: none ;
+    margin-left: -40px;
+}
+.Skills{
+    list-style: dot;
+    margin-left: 10px;
+}
+
+
+
+.body {
+    border: 5px solid rgb(226, 166, 1);
+    background-color: antiquewhite;
+}
+
+.img {
+    display: round;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    padding-top: 20px;
+    size: 50px;
+
+}
+
+
+
+.contactme {
+    font-family: serif;
+    background-color: rgb(9, 99, 202);
+
+}
+
+
+.footer {
+    background-color:rgb(9, 99, 202 );
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+}
+.footer h2{
+    text-align: center;
+}
+
+#education {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#experience {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#skills {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+section{
+    margin-left: 50px;
+}
+
